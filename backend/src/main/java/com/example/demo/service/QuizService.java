@@ -119,7 +119,7 @@ public class QuizService {
                 log.info("❌ Wrong");
             }
         }
-
+ 
         log.info("Final Score = {} / {}", score, quiz.getQuestions().size());
 
         // Save result
